@@ -130,13 +130,13 @@ rag‑eval‑project
 
 \## 评测指标可视化
 
-!\[chunk‑mrr](./results/chunk\_mrr.png)
+!\[chunk-mrr](./doc/chunk\_mrr.png)
 
-!\[chunk‑recall](./results/chunk\_recall.png)
+!\[chunk-recall](./doc/chunk\_recall.png)
 
-!\[topk‑latency](./results/topk\_latency.png)
+!\[topk-latency](./doc/topk\_latency.png)
 
-!\[topk‑recall](./results/topk\_recall.png)
+!\[topk-recall](./doc/topk\_recall.png)
 
 
 
@@ -164,43 +164,19 @@ OPENAI\_API\_KEY=你的密钥
 
 
 
-3\.执行测试
+3.执行测试
 
 python evaluator.py
 
 
 
-4\.查看测试报告
+4.查看测试报告
 
 打开results/rag\_test\_report.html即可查看完整测试报告
 
 
 
-5\.项目成果
+5.项目成果
 
 通过自动化测试流程，对 RAG 系统的检索、生成、安全和性能进行量化评估，实现从测试数据构建、自动执行、指标计算、缺陷识别到报告生成的完整测试闭环。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
