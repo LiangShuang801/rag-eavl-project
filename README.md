@@ -85,7 +85,7 @@ rag‑eval‑project
 1. 安装依赖
 pip install -r requirements.txt
 
-配置API Key
+2. 配置API Key
 OPENAI_API_KEY=你的密钥
 
 3.执行测试
