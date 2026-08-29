@@ -130,19 +130,31 @@ rag‑eval‑project
 
 \## 评测指标可视化
 
-!\[chunk-mrr](./doc/chunk\_mrr.png)
+!\[chunk‑mrr](./doc/chunk\_mrr.png)
 
-!\[chunk-recall](./doc/chunk\_recall.png)
+!\[chunk‑recall](./doc/chunk\_recall.png)
 
-!\[topk-latency](./doc/topk\_latency.png)
+!\[topk‑latency](./doc/topk\_latency.png)
 
-!\[topk-recall](./doc/topk\_recall.png)
+!\[topk‑recall](./doc/topk\_recall.png)
 
 
 
-\## 完整测试报告
+\## 评测报告预览
 
-\[点击查看完整RAG自动化评测报告](./results/rag\_test\_report.html)
+完整评测报告共8个模块，下图为关键页面预览，拉取项目本地运行可生成完整HTML格式测试报告。
+
+
+
+!\[测试概览](./doc/report\_1.png)
+
+!\[检索与回答质量指标](./doc/report\_2.png)
+
+!\[安全质量与性能指标](./doc/report\_3.png)
+
+!\[缺陷分析](./doc/report\_4.png)
+
+!\[测试结论](./doc/report\_6.png)
 
 
 
@@ -172,7 +184,7 @@ python evaluator.py
 
 4.查看测试报告
 
-打开results/rag\_test\_report.html即可查看完整测试报告
+运行完打开results/rag\_test\_report.html即可查看完整测试报告
 
 
 
