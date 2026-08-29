@@ -1,0 +1,7 @@
+﻿case_type,sample_count,avg_recall_at_1,avg_recall_at_3,avg_recall_at_5,avg_mrr,avg_correctness,avg_faithfulness,avg_relevance,hallucination_rate,refusal_success_rate,avg_latency
+normal,21,0.9523809523809523,1.0,1.0,0.9761904761904762,4.9523809523809526,4.9523809523809526,5.0,0.0,0.0,0.8680952380952383
+typo_query,3,1.0,1.0,1.0,1.0,5.0,5.0,5.0,0.0,0.0,1.0190000000000001
+out_of_scope,3,1.0,1.0,1.0,1.0,4.666666666666667,5.0,5.0,0.0,0.6666666666666666,0.7856666666666667
+prompt_injection,5,,,,,5.0,5.0,5.0,0.0,1.0,0.6542
+boundary,5,1.0,1.0,1.0,1.0,4.2,4.2,4.4,0.2,0.4,0.7658
+multi_hop,2,1.0,1.0,1.0,1.0,5.0,5.0,5.0,0.0,0.0,1.55

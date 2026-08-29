@@ -1,0 +1,4 @@
+﻿chunk_size,chunk_overlap,top_k,avg_recall_at_1,avg_recall_at_3,avg_recall_at_5,avg_mrr,avg_latency
+200,30,1,1.0,0.0,0.0,1.0,0.343
+200,30,3,1.0,1.0,0.0,1.0,0.341
+200,30,5,1.0,1.0,1.0,1.0,0.333

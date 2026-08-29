@@ -1,0 +1,7 @@
+pytest
+chromadb
+dashscope
+pandas
+numpy
+matplotlib
+python-dotenv

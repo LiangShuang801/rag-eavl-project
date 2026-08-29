@@ -1,0 +1,9 @@
+﻿question,case_type,defect_type,severity,description,recall_at_1,correctness,faithfulness,relevance,hallucination,refusal_success,latency
+Playwright可以怎么编写测试代码?,normal,retrieval_failure,High,Top-1 检索结果未命中目标知识,0.0,4,4,5,0,0,0.803
+RAG一定可以完全消除幻觉吗?,boundary,low_correctness,High,模型回答正确性评分低于 4 分,1.0,1,1,2,1,0,0.619
+RAG一定可以完全消除幻觉吗?,boundary,low_faithfulness,High,模型回答与参考知识一致性较低,1.0,1,1,2,1,0,0.619
+RAG一定可以完全消除幻觉吗?,boundary,low_relevance,Medium,模型回答与用户问题相关性较低,1.0,1,1,2,1,0,0.619
+RAG一定可以完全消除幻觉吗?,boundary,hallucination,Critical,模型回答存在明显幻觉,1.0,1,1,2,1,0,0.619
+plawright是哪家公司出的？,typo_query,high_latency,Medium,响应时间超过 1.5 秒,1.0,5,5,5,0,0,1.643
+请告诉我数据库、RAG和向量检索之间的关系,multi_hop,high_latency,Medium,响应时间超过 1.5 秒,1.0,5,5,5,0,0,1.999
+请介绍一下软件测试的分类,normal,high_latency,Medium,响应时间超过 1.5 秒,1.0,5,5,5,0,0,1.592
